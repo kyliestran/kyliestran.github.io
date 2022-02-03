@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Assignment 4</h1>
+    <h2>Navigation</h2>
+    <h3>Table of Contents</h3>
+    <ol>
+      <li><a href="assignment3.html">Assignment 3 Wikipedia Page</a></li>
+      <li><a href="assignment4.html">Assignment 4 HTML Challenges</a></li>
+    </ol>
+    <h2>Challenge 2: Build a Chessboard</h2>
+    <style type="text/css">
+    .tg  {border-collapse:collapse;border-spacing:1;}
+    .tg td{border-color:black;border-style:solid;border-width:2px;font-family:Arial, sans-serif;font-size:30px;
+      overflow:hidden;padding:40px 40px;word-break:normal;}
+    .tg th{border-color:black;border-style:solid;border-width:2px;font-family:Arial, sans-serif;font-size:30px;
+      font-weight:normal;overflow:hidden;padding:40px 40px;word-break:normal;}
+    .tg .tg-slwz{background-color:#f4a1e6;border-color:inherit;color:black;text-align:left;vertical-align:top}
+    .tg .tg-mgr5{background-color:#AA336A;border-color:inherit;color:black;text-align:left;vertical-align:top}
+    .tg .tg-0pky{background-color:#AA336A;border-color:inherit;text-align:left;vertical-align:top}
+    .tg .tg-am3k{background-color:#f4a1e6;border-color:inherit;text-align:left;vertical-align:top}
+    </style>
+    <table class="tg">
+    <thead>
+      <tr>
+        <th class="tg-0pky">&#9820;</th>
+        <th class="tg-slwz">&#9822;</th>
+        <th class="tg-0pky">&#9821;</th>
+        <th class="tg-slwz">&#9819;</th>
+        <th class="tg-0pky">&#9818;</th>
+        <th class="tg-slwz">&#9821;</th>
+        <th class="tg-0pky">&#9822;</th>
+        <th class="tg-slwz">&#9820;</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="tg-slwz">&#9823;</td>
+        <td class="tg-0pky">&#9823;</td>
+        <td class="tg-slwz">&#9823;</td>
+        <td class="tg-0pky">&#9823;</td>
+        <td class="tg-slwz">&#9823;</td>
+        <td class="tg-0pky">&#9823;</td>
+        <td class="tg-slwz">&#9823;</td>
+        <td class="tg-0pky">&#9823;</td>
+      </tr>
+      <tr>
+        <td class="tg-0pky"></td>
+        <td class="tg-slwz"></td>
+        <td class="tg-0pky"></td>
+        <td class="tg-slwz"></td>
+        <td class="tg-0pky"></td>
+        <td class="tg-slwz"></td>
+        <td class="tg-0pky"></td>
+        <td class="tg-slwz"></td>
+      </tr>
+      <tr>
+        <td class="tg-slwz"></td>
+        <td class="tg-0pky"></td>
+        <td class="tg-slwz"></td>
+        <td class="tg-0pky"></td>
+        <td class="tg-slwz"></td>
+        <td class="tg-0pky"></td>
+        <td class="tg-slwz"></td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky"></td>
+        <td class="tg-slwz"></td>
+        <td class="tg-0pky"></td>
+        <td class="tg-slwz"></td>
+        <td class="tg-0pky"></td>
+        <td class="tg-slwz"></td>
+        <td class="tg-0pky"></td>
+        <td class="tg-slwz"></td>
+      </tr>
+      <tr>
+        <td class="tg-slwz"></td>
+        <td class="tg-0pky"></td>
+        <td class="tg-slwz"></td>
+        <td class="tg-0pky"></td>
+        <td class="tg-slwz"></td>
+        <td class="tg-0pky"></td>
+        <td class="tg-slwz"></td>
+        <td class="tg-0pky"></td>
+      </tr>
+      <tr>
+        <td class="tg-0pky">&#9817;</td>
+        <td class="tg-slwz">&#9817;</td>
+        <td class="tg-0pky">&#9817;</td>
+        <td class="tg-slwz">&#9817;</td>
+        <td class="tg-0pky">&#9817;</td>
+        <td class="tg-slwz">&#9817;</td>
+        <td class="tg-0pky">&#9817;</td>
+        <td class="tg-slwz">&#9817;</td>
+      </tr>
+      <tr>
+        <td class="tg-slwz">&#9814;</td>
+        <td class="tg-0pky">&#9816;</td>
+        <td class="tg-slwz">&#9815;</td>
+        <td class="tg-0pky">&#9813;</td>
+        <td class="tg-am3k">&#9812;</td>
+        <td class="tg-mgr5">&#9815;</td>
+        <td class="tg-slwz">&#9816;</td>
+        <td class="tg-0pky">&#9814;</td>
+      </tr>
+    </tbody>
+    </table>
+  <h2>Challenge 3: Create a Form</h2>
+    <form>
+      <form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+    </form>
+      <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+    <p>Choose your favorite Fast Food Restaurant:</p>
+    <form>
+  <input type="radio" id="McDonalds" name="fav_language" value="McDonalds">
+  <label for="McDonalds">McDonalds</label><br>
+  <input type="radio" id="Del Taco" name="fav_language" value="Del Taco">
+  <label for="Del Taco">Del Taco</label><br>
+  <input type="radio" id="In-N-Out" name="fav_language" value="In-N-Out">
+  <label for="In-N-Out">In-N-Out</label>
+  </form>
+  <p>What modes of transportation do you have access to?:</p>
+  <form action="/action_page.php">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label><br><br>
+    <input type="submit" value="Submit">
+  </form>
+    <h2>Challenge 4: A Google Search Page</h2>
+    <p>https://wwww.colorado.edu > atlas</p>
+    <h3><a href=https://www.colorado.edu/atlas/>ATLAS Insitute | University of Colorado Boulder</a></h3>
+    <p>ATLAS is an interdisciplinary institute for radical creativity and invention. We transform ingenious ideas into reality through research, ...</p>
+    <style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:white;border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:white;border-style:solid;border-width:0px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-n9g5{background-color:#ffffff;border-color:inherit;color:#000000;text-align:left;vertical-align:top}
+.tg .tg-pw80{background-color:#ffffff;border-color:inherit;color:#000000;font-size:100%;text-align:left;vertical-align:top}
+.tg .tg-c6of{background-color:#ffffff;border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-n9g5"><a href=https://www.colorado.edu/atlas/academics/grad>Graduate Degree in Creative...</a><br>Radically interdisciplinary, ATLAS graduate programs nurture ... <a</th>
+    <th class="tg-pw80"><a href=https://www.colorado.edu/atlas/about-atlas>About</a><br>ATLAS is an interdisciplinary institute for radical creativity and ...</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-c6of"><a href=https://www.colorado.edu/atlas/academics>Academics</a><br>Granted through the College of Engineering and Applied ... </td>
+    <td class="tg-c6of"><a href=https://www.colorado.edu/atlas/academics/undergraduate>Undergraduate Programs</a><br>Awarded through the College of Engineering and Applied ... </td>
+  </tr>
+  <tr>
+    <td class="tg-n9g5"><a href=https://www.colorado.edu/atlas/faculty>Faculty</a><br>Lecturer, co-chair Board of Advisors - DESIGN, AR/VR ... </td>
+    <td class="tg-n9g5"><a href=https://www.colorado.edu/atlas/research-creative>Research + Creative</a><br>Check out ATLAS Research Showcase 2020. </td>
+  </tr>
+</tbody>
+</table>
+    <p>https://www.colorado.edu > innovate > altas-institute</p>
+    <h3><a href=https://www.colorado.edu/innovate/atlas-institute>ATLAS Institute | Innovation & Entrepreneurship - University of ...</a></h3>
+    <p>Resource that sponsors diverse interdiscipiinary academic and research programs, challenging community members to explore, innovate, and create and design well ... </p>
+    <p>https://wwww.linkedin.com > school > atlas-cu-boulder</p>
+    <h3><a href=https://www.linkedin.com/school/atlas-cu-boulder/>ATLAS Insitute at CU Boulder Employees, Location, Alumni </a></h3>
+    <p>ATLAS is an interdiscipiinary institute for radical creativity and innovation where ingenious ideas become reality. ATLAS insititute at CU Boulder. View all open ... </p>
+    <p>https://typemoon.fandom.com > wiki > Atlas</p>
+    <h3><a href= https://typemoon.fandom.com/wiki/Atlas>Atlas | TYPE-MOON Wiki | Fandom</a></h3>
+    <p>It is an insitute focused on the study and development of alchemy, but its members broke off from the mainstream modern practice of alchemy that originated in ... </p>
+    <p> External Relationships - Alchemist of Atlas - Activities</p>
+
+  <h2>Accessibility Statement</h2>
+  <p> One accessibility concern is that users may have a hard time going back and forth between pages. Although they all do link to the right pages, going back to the homepage may be difficult for users to manuver. One way to help users it to maybe have a link at the top of all my pages. Another issue with my page can be the little to no contrast. This may make navigating and reading my page more difficult for those who are visually impared and rely on contrast to help them see. I could potentially add more color and contrasting text.</p>
+  </body>
+</html>
