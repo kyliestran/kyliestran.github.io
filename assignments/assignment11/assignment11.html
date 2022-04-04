@@ -6,79 +6,17 @@
     <link rel="stylesheet" href="stylesheet.css">
   </head>
   <body>
-    <h1>Photo Gallery</h1>
-    <div class="container">
-    <div class="myImages">
-      <div class="numbertext">1 / 6</div>
-      <img src="./img/B2SPARTY.JPG"
-      style="width:100%">
-    </div>
-    <div class="myImages">
-      <div class="numbertext">2 / 6</div>
-      <img src="./img/WHETHAN.JPG"
-      style="width:100%">
-    </div>
-    <div class="myImages">
-      <div class="numbertext">3 / 6</div>
-      <img src="./img/KKFILM.JPG"
-      style="width:100%">
-    </div>
-    <div class="myImages">
-      <div class="numbertext">4 / 6</div>
-      <img src="./img/MACK.JPG"
-      style="width:100%">
-    </div>
-    <div class="myImages">
-      <div class="numbertext">5 / 6</div>
-      <img src="./img/DASHEL.JPG"
-      style="width:100%">
-    </div>
-    <div class="myImages">
-      <div class="numbertext">6 / 6</div>
-      <img src="./img/mainpagepic.JPG"
-      style="width:100%">
-    </div>
-
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-    <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-    <div class="row">
-      <div class="column">
-        <img class="demo cursor" src="B2SPARTY.JPG"
-        style="width:100%" onclick="currentSlide(1)"
-        alt="Film">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="WHETHAN.JPG"
-        style="width:100%" onclick="currentSlide(2)"
-        alt="Film">
-      </div>
-      <div class="column">
-        <img class="photo gallery" src="KKFILM.JPG"
-        style="width:100%" onclick="currentSlide(3)"
-        alt="Film">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="MACK.JPG"
-        style="width:100%" onclick="currentSlide(4)"
-        alt="Film">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="DASHEL.JPG"
-        style="width:100%" onclick="currentSlide(5)"
-        alt="Film">
-      </div>
-      <div class="column">
-        <img class="demo cursor" src="mainpagepic.JPG"
-        style="width:100%" onclick="currentSlide(6)"
-        alt="Film">
-      </div>
-    </div>
-  </div>
-  <script src="./js/script.js" charset="utf-8"></script>
-  </body>
-</html>
+    <h1>Assignment 11</h1>
+    <h2>Rotating Photos</h2>
+    <section>
+          <img class="slides" src="B2SPARTY.JPG" alt="back to school">
+          <img class="slides" src="DASHEL.JPG" alt="dashel">
+          <img class="slides" src="MACK.JPG" alt="mack shack">
+          <img class="slides" src="WHETHAN.JPG" alt="whethan concert">
+          <img class="slides" src="mainpagepic.JPG" alt="red rocks">
+        </section>
+    <h2>Toggle Text</h2>
+    <button onclick="myFunction()">Click Me</button>
+  <div id="myDIV">Hello</div>
+<script src="script.js"></script>
+</body>
