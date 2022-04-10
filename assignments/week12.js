@@ -7,7 +7,7 @@ async function getQuote() {
     }
     const json = await response.json();
     console.log(json);
-    displayQuote(json.fact);
+    displayQuote(json.activity);
   }catch(err) {
     console.log(err)
     alert('Failed');
@@ -17,6 +17,7 @@ function displayQuote(quote) {
   const quoteText = document.querySelector('#js-quote-text');
   quoteText.textContent = quote;
 }
-const endpoint = 'https://catfact.ninja/fact';
+
+const endpoint = 'http://www.boredapi.com/api/activity/';
 const quoteButton = document.querySelector('#js-new-quote');
 quoteButton.addEventListener('click', getQuote);
