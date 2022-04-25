@@ -90,7 +90,17 @@ console.log(company);
  *
  * Print updated JSON to console.
  **/
+ let Anna = {
+   "first_name": "Anna",
+   "department": "Tech",
+   "designation": "Executive",
+   "salary": 25600,
+   "rasie_eligible": false
+ }
 
+
+console.log("PROBLEM 3");
+console.log(Anna);
 
 
 
