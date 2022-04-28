@@ -87,6 +87,8 @@ a:link{
   width: 400px;
   margin-left: auto;
   margin-right:auto;
+  color:#E11584;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .center {
@@ -246,4 +248,25 @@ a:link{
 }
 .story{
   background-color:#FFE6EE
+}
+
+* {box-sizing: border-box;}
+
+.img-zoom-container {
+  position: center;
+}
+
+.img-zoom-lens {
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  /*set the size of the lens:*/
+  width: 40px;
+  height: 40px;
+}
+
+.img-zoom-result {
+  border: 1px solid #d4d4d4;
+  /*set the size of the result div:*/
+  width: 300px;
+  height: 300px;
 }

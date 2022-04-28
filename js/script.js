@@ -81,3 +81,11 @@ var index = 0;
         return {x : x, y : y};
       }
     }
+
+var submit = document.querySelector(".button")
+submit.addEventListener("click", clearInput);
+function clearInput(){
+  var submit = document.querySelector("#fname")
+  var submit = document.querySelector("#email")
+  var submit = document.querySelector("#message")
+}
