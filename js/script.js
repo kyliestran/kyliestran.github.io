@@ -89,3 +89,6 @@ function clearInput(){
   var submit = document.querySelector("#email")
   var submit = document.querySelector("#message")
 }
+
+var first_name = document.getElementById("fname");
+first_name.value = "";
